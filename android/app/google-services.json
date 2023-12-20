@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "817393210785",
+    "firebase_url": "https://flutter-course-e8679-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "flutter-course-e8679",
+    "storage_bucket": "flutter-course-e8679.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:817393210785:android:7ca0f500342c1324c527e0",
+        "android_client_info": {
+          "package_name": "com.example.chat_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-vraM_GyWBha1RMw_B_l-BZBmGx96Qec"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
