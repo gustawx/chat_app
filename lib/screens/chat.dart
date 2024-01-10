@@ -12,20 +12,18 @@ class ChatScreen extends StatefulWidget {
 }
 
 class _ChatScreenState extends State<ChatScreen> {
-  void setupPushNotifictaions() async {
+  void setupPushNotifications() async {
     final fcm = FirebaseMessaging.instance;
 
     await fcm.requestPermission();
 
-    final token =
-        await fcm.getToken(); //address of the device on which app is running
-    print(token);
+    fcm.subscribeToTopic('chat');
   }
 
   @override
   void initState() {
     super.initState();
-    setupPushNotifictaions();
+    setupPushNotifications();
   }
 
   @override
